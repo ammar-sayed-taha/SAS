@@ -1,0 +1,165 @@
+/* Screen */
+@media (min-width: 1200px){
+
+
+
+}
+
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px){
+    /* ******* Start About Us Page ********* */
+    .head-title{
+        font-size: 27px;
+    }
+    /* ******* End About Us Page ********* */
+}
+
+/*Small screen*/
+@media (min-width: 769px) and (max-width: 991px){
+
+     /* ******* Start Gallery Page ********* */
+     .gallery .inner-gallery .img-con{
+        width: 50%;
+    }
+    /* ******* End Gallery Page ********* */
+
+    /* ******* Start About Us Page ********* */
+    .about-header{
+        height: 200px;;
+    }
+    .head-title{
+        font-size: 27px;
+    }
+    .head-title{
+        font-size: 27px;
+    }
+    /* ******* End About Us Page ********* */
+
+    /* ************* Index Page *************** */
+    .index-circle, .index-circle span, .index-circle::before, .index-circle::after{
+        width: 180px;
+        height: 180px;
+    }
+    .index-circle span{
+        font-size: 11px;
+    }
+
+}
+
+@media  (max-width: 991px){
+
+    /* Bootstrap */
+    .search-icon{
+        padding: 15px 0 0 20px;
+    }
+     /* ******* Start Gallery Page ********* */
+     .gallery .inner-gallery .img-con{
+        width: 50%;
+    }
+    .navbar{
+        background: #19578c
+    }
+    /* ******* End Gallery Page ********* */
+
+     /* ******* Start About Us Page ********* */
+     .about-header{
+        height: 200px;;
+    }
+    .head-title{
+        font-size: 20px;
+    }
+    /* ******* End About Us Page ********* */
+    
+    /* *******  News Page ********* */
+    .news .news-body h4{
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    /* Products Page */
+    .our-products a{
+        border-bottom: 1px solid #bbb;
+    }
+    .products .our-products,
+    .description .our-productss{
+        border-right: 0;
+        background: #fafafa;
+        border-radius: 20px;
+        margin: 0 0 20px 0;
+    }
+    .products .product-body h2, .description h2{
+        font-size: 20px;
+    }
+    .products .img-container img{
+        display: inline;
+        max-width: 200px;
+    }
+    .pageNumber{
+        margin: 0 0 0 11%;
+    }
+
+    /* Index Page */
+    .index-header{
+        position: relative;
+    }
+    .index-header h1{
+        font-size: 18px;
+        margin: 106px 0 0 0;
+        text-align: center;
+        line-height: 1.3;
+        letter-spacing: 5px;
+        display: block;
+    }
+}
+
+/*Mobile Screens*/
+@media (max-width: 768px){
+
+    /* Bootstrap style */
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #d4d4d4;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #fff;
+    }
+
+    /* ******* Start Gallery Page ********* */
+    .gallery .inner-gallery .img-con{
+        width: 100%;
+    }
+    .navbar{
+        background: #19578c
+    }
+    /* ******* End Gallery Page ********* */
+
+    /* ******* Start About Us Page ********* */
+    .about-header{
+        height: 150px;;
+    }
+    /* ******* End About Us Page ********* */
+    .products .inner-product{
+        text-align: center;
+        margin-bottom: 10px;
+        max-height: 225px;
+        
+    }
+    .skype .skype-call h4{
+        line-height: 1.4;
+        font-size: 14px;
+    }
+
+    /* ************* Index Page *************** */
+    .index-circle, .index-circle span, .index-circle::before, .index-circle::after{
+        width: 150px;
+        height: 150px;
+    }
+    .index-circle{
+        margin-top: 90px;
+        margin-left: 27%;
+    }
+    .index-circle span{
+        font-size: 11px;
+    }
+
+}
